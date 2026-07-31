@@ -1,3 +1,36 @@
+
+
+class Employee:
+    def __init__(self, emp_id, name, skills, experience, bench_since):
+        self.emp_id = emp_id
+        self.name = name
+        self.skills = skills
+        self.experience = experience
+        self.bench_since = bench_since
+
+    def __repr__(self):
+        return (
+            f"EmpID: {self.emp_id} | Name: {self.name} | "
+            f"Skills: {self.skills} | Experience: {self.experience} | "
+            f"Bench Since: {self.bench_since}"
+        )
+
+
+class Project:
+    def __init__(self, proj_id, proj_name, required_skills, positions_open):
+        self.proj_id = proj_id
+        self.proj_name = proj_name
+        self.required_skills = required_skills
+        self.positions_open = positions_open
+
+    def __repr__(self):
+        return (
+            f"ProjectID: {self.proj_id} | ProjectName: {self.proj_name} | "
+            f"RequiredSkills: {self.required_skills} | "
+            f"PositionsOpen: {self.positions_open}"
+        )
+
+
 def load_employees(filename="employees.csv"):
     employees_data = []
     try:
@@ -19,16 +52,19 @@ def load_employees(filename="employees.csv"):
                     
                     emp_id = before_quotes[0]
                     name = before_quotes[1]
-                    bench_days = after_quotes[0]
+                    experience = after_quotes[0]
+                    bench_since = after_quotes[1]
                 else:
                     parts = line.split(',')
                     emp_id = parts[0]
                     name = parts[1]
                     skills = parts[2]
-                    bench_days = parts[3]
+                    experience = parts[3]
+                    bench_since = parts[4]
             
-                formatted_emp = f"EmpID: {emp_id} | Name: {name} | Skills: {skills} | Bench Days: {bench_days}"
-                employees_data.append(formatted_emp)
+                # Create an Employee object and append to the list
+                employee_obj = Employee(emp_id, name, skills, experience, bench_since)
+                employees_data.append(employee_obj)
 
     except FileNotFoundError:
         print(f"Error: The file '{filename}' does not exist.")
@@ -64,8 +100,9 @@ def load_projects(filename="open_projects.csv"):
                     skills = parts[2]
                     positions_open = parts[3]
                     
-                formatted_proj = f"ProjectID: {proj_id} | ProjectName: {proj_name} | RequiredSkills: {skills} | PositionsOpen: {positions_open}"
-                projects_data.append(formatted_proj)
+                # Create a Project object and append to the list
+                project_obj = Project(proj_id, proj_name, skills, positions_open)
+                projects_data.append(project_obj)
 
     except FileNotFoundError:
         print(f"Error: The file '{filename}' does not exist.")
