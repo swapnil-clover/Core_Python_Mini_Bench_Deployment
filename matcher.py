@@ -23,41 +23,55 @@ def parse_skills(skills_str):
 
 def evaluate_matches(employees, projects):
     """
-    Compares each open project's required skills against each bench employee's skills,
-    computes match percentages, and classifies the pairing.
+    Evaluates matches between employees and projects.
+    - Current Skills have a higher weight (e.g., 1.0).
+    - Learning Skills have a slightly lesser weight (e.g., 0.6) to reflect potential rather than mastery.
     """
     match_results = []
+
+    # Weight configurations
+    CURRENT_SKILL_WEIGHT = 1.0
+    LEARNING_SKILL_WEIGHT = 0.6  # Slightly less weight for learning skills
 
     for project in projects:
         req_skills = parse_skills(project.required_skills)
         
-        # Skip if the project has no required skills defined to avoid division by zero
         if not req_skills:
             continue
 
         for employee in employees:
             emp_skills = parse_skills(employee.skills)
+            learning_skills = parse_skills(employee.learning_skills)
 
-            # Compute intersection and missing skills
-            matching_skills = req_skills.intersection(emp_skills)
-            missing_skills_set = req_skills.difference(emp_skills)
-            
-            # Calculate match percentage based on required skills
-            match_percentage = (len(matching_skills) / len(req_skills)) * 100
+            # Find matching current skills and matching learning skills against requirements
+            matched_current = req_skills.intersection(emp_skills)
+            matched_learning = req_skills.intersection(learning_skills)
 
-            # Classify based on percentage thresholds
+            # Prevent double-counting if a skill is present in both current and learning
+            matched_learning = matched_learning.difference(matched_current)
+
+            # Calculate total weighted score
+            score = (len(matched_current) * CURRENT_SKILL_WEIGHT) + (len(matched_learning) * LEARNING_SKILL_WEIGHT)
+
+            # Calculate final match percentage relative to total required skills
+            match_percentage = (score / len(req_skills)) * 100
+
+            # Determine true missing skills (not present in current or learning)
+            total_covered = matched_current.union(matched_learning)
+            missing_skills_set = req_skills.difference(total_covered)
+
+            # Define status thresholds based on the adjusted percentage
             if match_percentage >= 80:
                 status = "Full Match"
                 missing = []
             elif 50 <= match_percentage < 80:
                 status = "Needs Minimal Upskilling"
-                # Keep original case/formatting for display if available, else use set values
                 missing = list(missing_skills_set)
             else:
                 status = "Not Suitable"
-                missing = []
+                missing = list(missing_skills_set)
 
-            # Store the result object
+            # Create and store result object
             result = MatchResult(
                 employee=employee,
                 project=project,

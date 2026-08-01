@@ -1,18 +1,17 @@
-
-
 class Employee:
-    def __init__(self, emp_id, name, skills, experience, bench_since):
+    def __init__(self, emp_id, name, skills, experience, bench_since, learning_skills):
         self.emp_id = emp_id
         self.name = name
         self.skills = skills
         self.experience = experience
         self.bench_since = bench_since
+        self.learning_skills = learning_skills
 
     def __repr__(self):
         return (
             f"EmpID: {self.emp_id} | Name: {self.name} | "
             f"Skills: {self.skills} | Experience: {self.experience} | "
-            f"Bench Since: {self.bench_since}"
+            f"Bench Since: {self.bench_since} | Learning Skills: {self.learning_skills}"
         )
 
 
@@ -43,27 +42,28 @@ def load_employees(filename="employees.csv"):
                 if not line:
                     continue
                 
-                # Simple line parsing while accounting for quoted skill strings
-                if '"' in line:
-                    parts = line.split('"')
-                    before_quotes = parts[0].rstrip(',').split(',')
-                    skills = parts[1]
-                    after_quotes = parts[2].lstrip(',').split(',')
-                    
-                    emp_id = before_quotes[0]
-                    name = before_quotes[1]
-                    experience = after_quotes[0]
-                    bench_since = after_quotes[1]
-                else:
-                    parts = line.split(',')
-                    emp_id = parts[0]
-                    name = parts[1]
-                    skills = parts[2]
-                    experience = parts[3]
-                    bench_since = parts[4]
+                # Parsing structure expecting both Skills and LearningSkills to be quoted:
+                # Format: emp_id, name, "skills", experience, bench_since, "learning_skills"
+                parts = line.split('"')
+                
+                # parts[0] -> emp_id, name, (e.g., "E101,Vikram Singh,")
+                before_skills = parts[0].rstrip(',').split(',')
+                emp_id = before_skills[0]
+                name = before_skills[1]
+                
+                # parts[1] -> skills inside the first set of quotes
+                skills = parts[1]
+                
+                # parts[2] -> middle unquoted values (experience, bench_since), e.g., ",3,2026-05-15,"
+                middle_values = parts[2].strip(',').split(',')
+                experience = middle_values[0]
+                bench_since = middle_values[1]
+                
+                # parts[3] -> learning_skills inside the second set of quotes
+                learning_skills = parts[3]
             
                 # Create an Employee object and append to the list
-                employee_obj = Employee(emp_id, name, skills, experience, bench_since)
+                employee_obj = Employee(emp_id, name, skills, experience, bench_since, learning_skills)
                 employees_data.append(employee_obj)
 
     except FileNotFoundError:
