@@ -60,15 +60,21 @@ def evaluate_matches(employees, projects):
             # Prevent double-counting if a skill is present in both current and learning
             matched_learning = matched_learning.difference(matched_current)
 
-            # Calculate total weighted score
-            score = (len(matched_current) * CURRENT_SKILL_WEIGHT) + (len(matched_learning) * LEARNING_SKILL_WEIGHT)
+            current_count = len(matched_current)
+            learning_count = len(matched_learning)
+            total_required = len(req_skills)
 
-            # Calculate final match percentage relative to total required skills
-            match_percentage = (score / len(req_skills)) * 100
+            # Unweighted current-skill match — drives classification
+            current_pct = (current_count / total_required) * 100
 
-            #  Determine true missing skills (not present in current or learning)
-            total_covered = matched_current.union(matched_learning)
-            missing_skills_set = req_skills.difference(total_covered)
+            # Weighted score (kept for tiebreaking / reporting only)
+            score = (current_count * CURRENT_SKILL_WEIGHT) + (learning_count * LEARNING_SKILL_WEIGHT)
+            weighted_score = (score / total_required) * 100
+
+            # True missing skills = required skills not in the employee's known skill set.
+            # Learning skills do NOT cover gaps for the purpose of this list — the
+            # employee hasn't actually mastered them yet.
+            missing_skills_set = req_skills.difference(matched_current)
 
             # Classification runs on the UNWEIGHTED current_pct — this is the fix
             # for the bug where learning skills could falsely promote an employee
