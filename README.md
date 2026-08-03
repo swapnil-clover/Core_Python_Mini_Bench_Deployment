@@ -203,10 +203,10 @@ Running the script will:
 ## Sample Output
 
 ```text
-EmployeeID  EmployeeName    DaysOnBench  BenchFlag   Project                     MatchPct  Status
-E189        Meera Chauhan   3            Normal      Full Stack Web Application  83.33     Full Match
-E189        Meera Chauhan   3            Normal      Data Science Analytics...   16.67     Not Suitable
-E114        Pooja Kulkarni  36           Attention   Mobile App Development      83.33     Full Match
+EmployeeID  EmployeeName    DaysOnBench  BenchFlag   Project                     MatchPct  WeightedScore  Status
+E189        Meera Chauhan   3            Normal      Full Stack Web Application  83.33     93.33          Full Match
+E189        Meera Chauhan   3            Normal      Data Science Analytics...   16.67     16.67          Not Suitable
+E114        Pooja Kulkarni  36           Attention   Mobile App Development      83.33     83.33          Full Match
 ```
 
 The console output is complemented by a bench-ageing report (sorted oldest-first) and a complete `bench_report.csv` export covering every employee-project pairing.
