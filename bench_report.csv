@@ -1,0 +1,101 @@
+EmployeeID,EmployeeName,DaysOnBench,BenchFlag,Project,MatchPct,WeightedScore,Status,MissingSkills
+E101,Vikram Singh,19,Normal,HR Portal Revamp,66.67,66.67,Needs Minimal Upskilling,django
+E101,Vikram Singh,19,Normal,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E101,Vikram Singh,19,Normal,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E101,Vikram Singh,19,Normal,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E101,Vikram Singh,19,Normal,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E110,Arnav Mehta,63,High Priority,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E110,Arnav Mehta,63,High Priority,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E110,Arnav Mehta,63,High Priority,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E110,Arnav Mehta,63,High Priority,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E110,Arnav Mehta,63,High Priority,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E111,Diya Shah,22,Normal,HR Portal Revamp,33.33,33.33,Not Suitable,django; git
+E111,Diya Shah,22,Normal,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E111,Diya Shah,22,Normal,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E111,Diya Shah,22,Normal,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E111,Diya Shah,22,Normal,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E115,Sana Kulkarni,19,Normal,HR Portal Revamp,33.33,53.33,Not Suitable,django; git
+E115,Sana Kulkarni,19,Normal,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E115,Sana Kulkarni,19,Normal,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E115,Sana Kulkarni,19,Normal,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E115,Sana Kulkarni,19,Normal,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E122,Ameya Joshi,80,High Priority,Legacy System Modernization,100.0,100.0,Full Match,
+E122,Ameya Joshi,80,High Priority,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E122,Ameya Joshi,80,High Priority,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E122,Ameya Joshi,80,High Priority,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E122,Ameya Joshi,80,High Priority,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E124,Anshul Verma,77,High Priority,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E124,Anshul Verma,77,High Priority,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E124,Anshul Verma,77,High Priority,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E124,Anshul Verma,77,High Priority,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E124,Anshul Verma,77,High Priority,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E128,Chirag Bansal,39,Attention,Mobile Banking Web Portal,33.33,33.33,Not Suitable,javascript; redux
+E128,Chirag Bansal,39,Attention,E-Commerce Frontend Overhaul,25.0,25.0,Not Suitable,javascript; html; css
+E128,Chirag Bansal,39,Attention,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E128,Chirag Bansal,39,Attention,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E128,Chirag Bansal,39,Attention,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E133,Esha Sen,31,Attention,E-Commerce Frontend Overhaul,75.0,75.0,Needs Minimal Upskilling,javascript
+E133,Esha Sen,31,Attention,Mobile Banking Web Portal,33.33,33.33,Not Suitable,javascript; redux
+E133,Esha Sen,31,Attention,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E133,Esha Sen,31,Attention,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E133,Esha Sen,31,Attention,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E140,Jaya Nair,48,Attention,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E140,Jaya Nair,48,Attention,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E140,Jaya Nair,48,Attention,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E140,Jaya Nair,48,Attention,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E140,Jaya Nair,48,Attention,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E146,Lakshmi Iyer,23,Normal,HR Portal Revamp,66.67,66.67,Needs Minimal Upskilling,git
+E146,Lakshmi Iyer,23,Normal,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E146,Lakshmi Iyer,23,Normal,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E146,Lakshmi Iyer,23,Normal,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E146,Lakshmi Iyer,23,Normal,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E152,Nandini Gupta,43,Attention,E-Commerce Frontend Overhaul,25.0,25.0,Not Suitable,javascript; css; react
+E152,Nandini Gupta,43,Attention,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E152,Nandini Gupta,43,Attention,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E152,Nandini Gupta,43,Attention,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E152,Nandini Gupta,43,Attention,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E159,Pranav Nair,25,Normal,HR Portal Revamp,66.67,86.67,Needs Minimal Upskilling,django
+E159,Pranav Nair,25,Normal,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E159,Pranav Nair,25,Normal,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E159,Pranav Nair,25,Normal,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E159,Pranav Nair,25,Normal,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E165,Rashi Verma,18,Normal,HR Portal Revamp,100.0,100.0,Full Match,
+E165,Rashi Verma,18,Normal,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E165,Rashi Verma,18,Normal,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E165,Rashi Verma,18,Normal,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E165,Rashi Verma,18,Normal,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E170,Ritu Pillai,13,Normal,HR Portal Revamp,33.33,33.33,Not Suitable,django; git
+E170,Ritu Pillai,13,Normal,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E170,Ritu Pillai,13,Normal,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E170,Ritu Pillai,13,Normal,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E170,Ritu Pillai,13,Normal,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E176,Shalini Bhat,37,Attention,Mobile Banking Web Portal,66.67,66.67,Needs Minimal Upskilling,javascript
+E176,Shalini Bhat,37,Attention,E-Commerce Frontend Overhaul,25.0,25.0,Not Suitable,javascript; html; css
+E176,Shalini Bhat,37,Attention,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E176,Shalini Bhat,37,Attention,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E176,Shalini Bhat,37,Attention,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E181,Sonal Agarwal,114,Critical - Immediate Deployment needed,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E181,Sonal Agarwal,114,Critical - Immediate Deployment needed,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E181,Sonal Agarwal,114,Critical - Immediate Deployment needed,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E181,Sonal Agarwal,114,Critical - Immediate Deployment needed,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E181,Sonal Agarwal,114,Critical - Immediate Deployment needed,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E187,Tarun Roy,60,Attention,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E187,Tarun Roy,60,Attention,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E187,Tarun Roy,60,Attention,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E187,Tarun Roy,60,Attention,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E187,Tarun Roy,60,Attention,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E192,Varun Kumar,47,Attention,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E192,Varun Kumar,47,Attention,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E192,Varun Kumar,47,Attention,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E192,Varun Kumar,47,Attention,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E192,Varun Kumar,47,Attention,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E195,Vipin Sen,49,Attention,HR Portal Revamp,33.33,33.33,Not Suitable,django; git
+E195,Vipin Sen,49,Attention,E-Commerce Frontend Overhaul,0.0,0.0,Not Suitable,javascript; html; css; react
+E195,Vipin Sen,49,Attention,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E195,Vipin Sen,49,Attention,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#
+E195,Vipin Sen,49,Attention,Mobile Banking Web Portal,0.0,0.0,Not Suitable,javascript; redux; react
+E198,Yash Patel,54,Attention,E-Commerce Frontend Overhaul,75.0,75.0,Needs Minimal Upskilling,html
+E198,Yash Patel,54,Attention,Mobile Banking Web Portal,66.67,66.67,Needs Minimal Upskilling,redux
+E198,Yash Patel,54,Attention,HR Portal Revamp,0.0,0.0,Not Suitable,django; git; python
+E198,Yash Patel,54,Attention,Logistics Route Optimization,0.0,0.0,Not Suitable,c++; algorithms; data structures
+E198,Yash Patel,54,Attention,Legacy System Modernization,0.0,0.0,Not Suitable,dotnet; sql server; c#

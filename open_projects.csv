@@ -1,21 +1,6 @@
 ProjectID,ProjectName,RequiredSkills,PositionsOpen
-P201,Retail Analytics Platform,"Python,SQL,Git,REST API",2
-P202,Banking Core Migration,"Java,Spring Boot,SQL",1
 P203,HR Portal Revamp,"Python,Django,Git",1
-P204,Cloud Infrastructure Automation,"DevOps,AWS,Kubernetes,Terraform",3
-P205,AI-Powered Customer Support,"Python,Machine Learning,TensorFlow",2
-P206,Enterprise Microservices Mesh,"Java,Microservices,Spring Boot",2
 P207,E-Commerce Frontend Overhaul,"React,JavaScript,HTML,CSS",4
-P208,Automated CI/CD Pipeline,"DevOps,Jenkins,Docker",2
-P209,Healthcare Data Visualization,"Python,SQL,Tableau",1
-P210,Modern FinTech API Gateway,"Python,Flask,MySQL,REST API",2
 P211,Logistics Route Optimization,"C++,Data Structures,Algorithms",1
-P212,NextGen SaaS Dashboard,"Angular,TypeScript,HTML",2
-P213,Insurance Claims Processing,"Java,Hibernate,MySQL",2
-P214,Real-Time Chat Application,"Node.js,Express,MongoDB",3
 P215,Legacy System Modernization,"C#,DotNet,SQL Server",2
-P216,Deep Learning Image Classifier,"Python,Machine Learning,PyTorch",1
-P217,Supply Chain Analytics,"Python,Data Science,Pandas",2
-P218,Secure Authentication Service,"Java,Spring Boot,REST API",2
 P219,Mobile Banking Web Portal,"React,Redux,JavaScript",3
-P220,IoT Fleet Tracking System,"C++,Embedded Systems,Linux",2

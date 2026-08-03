@@ -177,9 +177,9 @@ def print_bench_ageing(employees):
         days = getattr(employee, "days_on_bench", 0)
         flag = getattr(employee, "flag", "Normal")
         line = (
-            f"{str(employee.emp_id).ljust(ageing_widths['EmployeeID'])}{GAP}"
+            f"{str(employee.emp_id).ljust(ageing_widths['EmployeeID'])}{GAP}{GAP}{GAP}{GAP}"
             f"{str(employee.name).ljust(ageing_widths['EmployeeName'])}{GAP}"
-            f"{str(days).rjust(ageing_widths['DaysOnBench'])}{GAP}"
+            f"{str(days).rjust(ageing_widths['DaysOnBench'])}{GAP}{GAP}{GAP}{GAP}{GAP}"
             f"{str(flag).ljust(ageing_widths['BenchFlag'])}"
         )
         print(line)
