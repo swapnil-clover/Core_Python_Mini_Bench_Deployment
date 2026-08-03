@@ -33,7 +33,7 @@ class Project:
         )
 
 
-def load_employees(filename="employees.csv"):
+def load_employees(filename="output/employees.csv"):
     """Read employees.csv with csv.DictReader. Skills / LearningSkills columns may
     contain quoted comma-separated strings; csv.DictReader handles that natively.
     Rows that are missing required fields or fail to parse are skipped with a warning.
@@ -63,7 +63,7 @@ def load_employees(filename="employees.csv"):
     return employees_data
 
 
-def load_projects(filename="open_projects.csv"):
+def load_projects(filename="data/open_projects.csv"):
     """Read open_projects.csv with csv.DictReader. positions_open is cast to int
     so callers can do arithmetic on it without a TypeError.
     Malformed rows are skipped with a warning rather than crashing the whole load.
@@ -91,7 +91,7 @@ def load_projects(filename="open_projects.csv"):
     return projects_data
 
 
-def load_total_employees(filename="total_employees.txt"):
+def load_total_employees(filename="data/total_employees.txt"):
     """Read total_employees.txt and return its contents as an int.
     The file is expected to contain a single integer (e.g.'700'), possibly
     surrounded by whitespace.

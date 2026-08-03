@@ -186,7 +186,7 @@ def print_bench_ageing(employees):
     print("-" * 75)
 
 
-def export_bench_report(match_results, employees, filename="bench_report.csv"):
+def export_bench_report(match_results, employees, filename="output/bench_report.csv"):
     """Export EVERY employee-project match row to filename using csv.DictWriter.
 
     CHANGE: previously wrote exactly one row per employee (their best match).

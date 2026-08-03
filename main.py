@@ -6,9 +6,9 @@ import report
 
 def main():
     # 1. Load all input data.
-    employees = data_handler.load_employees("employees.csv")
-    projects = data_handler.load_projects("open_projects.csv")
-    total_employees = data_handler.load_total_employees("total_employees.txt")
+    employees = data_handler.load_employees("data/employees.csv")
+    projects = data_handler.load_projects("data/open_projects.csv")
+    total_employees = data_handler.load_total_employees("data/total_employees.txt")
 
     if not employees or not projects:
         print("Cannot proceed: employee or project data failed to load.")
@@ -29,7 +29,7 @@ def main():
     # 4. Reporting — console dashboard + bench-ageing + CSV export.
     report.print_dashboard(match_results, employees)
     report.print_bench_ageing(employees)
-    report.export_bench_report(match_results, employees, "bench_report.csv")
+    report.export_bench_report(match_results, employees, "output/bench_report.csv")
 
 
 if __name__ == "__main__":
