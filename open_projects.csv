@@ -1,6 +1,6 @@
 ProjectID,ProjectName,RequiredSkills,PositionsOpen
-P203,HR Portal Revamp,"Python,Django,Git",1
-P207,E-Commerce Frontend Overhaul,"React,JavaScript,HTML,CSS",4
-P211,Logistics Route Optimization,"C++,Data Structures,Algorithms",1
-P215,Legacy System Modernization,"C#,DotNet,SQL Server",2
-P219,Mobile Banking Web Portal,"React,Redux,JavaScript",3
+P501,Cloud Infrastructure Automation,"aws, docker, kubernetes, terraform, linux, python",3
+P502,Data Science Analytics Platform,"python, pandas, numpy, sql, data science, machine learning",2
+P503,Full Stack Web Application,"javascript, react, node.js, html, css, sql",4
+P504,Mobile App Development,"android, kotlin, swift, ios, java, flutter",2
+P505,AI ML Recommendation Engine,"python, machine learning, tensorflow, deep learning, sql, data science",3
