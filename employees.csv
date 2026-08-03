@@ -1,21 +1,21 @@
 EmployeeID,Name,Skills,Experience,BenchSince,LearningSkills
-E101,Vikram Singh,"Python,SQL,Git",3,2026-07-15,"Docker,Machine Learning"
-E110,Arnav Mehta,"Node.js,Express,MongoDB",3,2026-06-01,"TypeScript"
-E111,Diya Shah,"Python,Data Analysis,Pandas",2,2026-07-12,"NumPy,Tableau"
-E115,Sana Kulkarni,"Python,Flask,MySQL",1,2026-07-15,"Django,SQLAlchemy"
-E122,Ameya Joshi,"C#,DotNet,SQL Server",5,2026-05-15,"Azure"
-E124,Anshul Verma,"Java,AWS,Microservices",6,2026-05-18,"Spring Cloud"
-E128,Chirag Bansal,"React,Node.js,MongoDB",3,2026-06-25,"Express"
-E133,Esha Sen,"React,TypeScript,HTML,CSS",1,2026-07-03,"Next.js,Tailwind CSS"
-E140,Jaya Nair,"Java,Spring Boot,SQL",3,2026-06-16,"Hibernate"
-E146,Lakshmi Iyer,"Python,Django,REST API",2,2026-07-11,"PostgreSQL"
-E152,Nandini Gupta,"Angular,TypeScript,HTML",3,2026-06-21,"RxJS"
-E159,Pranav Nair,"Python,SQL,Git,REST API",2,2026-07-09,"Django,Docker"
-E165,Rashi Verma,"Python,Django,Git",2,2026-07-16,"REST API,PostgreSQL"
-E170,Ritu Pillai,"Python,Machine Learning,SQL",2,2026-07-21,"TensorFlow"
-E176,Shalini Bhat,"React,Redux,TypeScript",3,2026-06-27,"Next.js"
-E181,Sonal Agarwal,"Java,Microservices,SQL",5,2026-04-11,"Spring Boot,Kubernetes"
-E187,Tarun Roy,"Java,SQL,REST API",4,2026-06-04,"Spring Boot,Microservices"
-E192,Varun Kumar,"DevOps,AWS,Kubernetes",4,2026-06-17,"Terraform"
-E195,Vipin Sen,"Python,Flask,Docker",3,2026-06-15,"Kubernetes,FastAPI"
-E198,Yash Patel,"React,JavaScript,CSS",3,2026-06-10,"TypeScript"
+E189,Meera Chauhan,"css, html, javascript, react, sql",8,2026-07-31,node.js
+E112,Rahul Choudhari,html,7,2026-04-09,css
+E144,Ishaan Kulkarni,"agile, kubernetes, linux, terraform",11,2026-03-10,"aws, python"
+E167,Sneha Mehta,"ios, swift",12,2026-05-05,kotlin
+E168,Meera Bose,"agile, aws, docker, linux, nlp, python, terraform",8,2026-05-03,kubernetes
+E200,Isha Bose,"android, ios",4,2026-04-10,"flutter, java, kotlin"
+E108,Vivaan Menon,"machine learning, mongodb, numpy, python, sql",10,2026-03-24,pandas
+E187,Sanjay Gupta,"azure, java, mongodb",12,2026-03-14,kotlin
+E114,Ishaan Reddy,"css, firebase, mongodb, node.js, sql",11,2026-03-21,"html, javascript"
+E147,Riya Mehta,javascript,12,2026-05-04,"css, html"
+E101,Deepak Sharma,"data science, deep learning, python, tensorflow",9,2026-03-15,"machine learning, sql"
+E128,Ananya Iyer,"data science, machine learning, numpy, pandas, python, sql",5,2026-06-26,
+E183,Vishal Choudhari,"communication, firebase, ios, java",9,2026-05-29,
+E194,Priya Chauhan,"aws, docker, linux, python, terraform",12,2026-04-21,kubernetes
+E181,Sai Nair,"aws, azure, python, pytorch",2,2026-04-29,
+E130,Priya Bhosale,"data science, firebase, numpy, pytorch",2,2026-03-10,
+E109,Arjun Khaire,"data science, python, sql",4,2026-07-24,tensorflow
+E178,Vishal Sharma,"docker, firebase, kubernetes, linux, mongodb, python, terraform",2,2026-07-02,aws
+E132,Karan Choudhari,"css, jira",4,2026-06-10,react
+E169,Kavya Choudhari,"data science, machine learning, python",3,2026-06-25,"pandas, sql"
