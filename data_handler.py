@@ -1,3 +1,6 @@
+import csv
+
+
 class Employee:
     def __init__(self, emp_id, name, skills, experience, bench_since, learning_skills):
         self.emp_id = emp_id
@@ -31,80 +34,74 @@ class Project:
 
 
 def load_employees(filename="employees.csv"):
+    """Read employees.csv with csv.DictReader. Skills / LearningSkills columns may
+    contain quoted comma-separated strings; csv.DictReader handles that natively.
+    Rows that are missing required fields or fail to parse are skipped with a warning.
+    """
     employees_data = []
+    required_fields = ("EmployeeID", "Name", "Skills", "Experience", "BenchSince", "LearningSkills")
     try:
-        with open(filename, "r") as file:
-            lines = file.readlines()
-            
-            # Skip header line (index 0) and iterate through records
-            for line in lines[1:]:
-                line = line.strip()
-                if not line:
-                    continue
-                
-                # Parsing structure expecting both Skills and LearningSkills to be quoted:
-                # Format: emp_id, name, "skills", experience, bench_since, "learning_skills"
-                parts = line.split('"')
-                
-                # parts[0] -> emp_id, name, (e.g., "E101,Vikram Singh,")
-                before_skills = parts[0].rstrip(',').split(',')
-                emp_id = before_skills[0]
-                name = before_skills[1]
-                
-                # parts[1] -> skills inside the first set of quotes
-                skills = parts[1]
-                
-                # parts[2] -> middle unquoted values (experience, bench_since), e.g., ",3,2026-05-15,"
-                middle_values = parts[2].strip(',').split(',')
-                experience = middle_values[0]
-                bench_since = middle_values[1]
-                
-                # parts[3] -> learning_skills inside the second set of quotes
-                learning_skills = parts[3]
-            
-                # Create an Employee object and append to the list
-                employee_obj = Employee(emp_id, name, skills, experience, bench_since, learning_skills)
-                employees_data.append(employee_obj)
-
+        with open(filename, "r", newline="") as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                try:
+                    if any(row.get(f) is None for f in required_fields):
+                        raise ValueError(f"Missing one of {required_fields}")
+                    employee_obj = Employee(
+                        row["EmployeeID"],
+                        row["Name"],
+                        row["Skills"],
+                        row["Experience"],
+                        row["BenchSince"],
+                        row["LearningSkills"],
+                    )
+                    employees_data.append(employee_obj)
+                except (KeyError, ValueError, IndexError) as e:
+                    print(f"Warning: skipping malformed employee row {row}: {e}")
     except FileNotFoundError:
         print(f"Error: The file '{filename}' does not exist.")
-
     return employees_data
 
 
 def load_projects(filename="open_projects.csv"):
+    """Read open_projects.csv with csv.DictReader. positions_open is cast to int
+    so callers can do arithmetic on it without a TypeError.
+    Malformed rows are skipped with a warning rather than crashing the whole load.
+    """
     projects_data = []
+    required_fields = ("ProjectID", "ProjectName", "RequiredSkills", "PositionsOpen")
     try:
-        with open(filename, "r") as file:
-            lines = file.readlines()
-            for line in lines[1:]:
-                line = line.strip()
-                if not line:
-                    continue
-                
-                # Simple line parsing while accounting for quoted skill strings
-                if '"' in line:
-                    parts = line.split('"')
-                    before_quotes = parts[0].rstrip(',').split(',')
-                    skills = parts[1]
-                    after_quotes = parts[2].lstrip(',').split(',')
-                    
-                    proj_id = before_quotes[0]
-                    proj_name = before_quotes[1]
-                    positions_open = after_quotes[0]
-
-                else:
-                    parts = line.split(',')
-                    proj_id = parts[0]
-                    proj_name = parts[1]
-                    skills = parts[2]
-                    positions_open = parts[3]
-                    
-                # Create a Project object and append to the list
-                project_obj = Project(proj_id, proj_name, skills, positions_open)
-                projects_data.append(project_obj)
-
+        with open(filename, "r", newline="") as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                try:
+                    if any(row.get(f) is None for f in required_fields):
+                        raise ValueError(f"Missing one of {required_fields}")
+                    project_obj = Project(
+                        row["ProjectID"],
+                        row["ProjectName"],
+                        row["RequiredSkills"],
+                        int(row["PositionsOpen"]),
+                    )
+                    projects_data.append(project_obj)
+                except (KeyError, ValueError, IndexError) as e:
+                    print(f"Warning: skipping malformed project row {row}: {e}")
     except FileNotFoundError:
         print(f"Error: The file '{filename}' does not exist.")
-
     return projects_data
+
+
+def load_total_employees(filename="total_employees.txt"):
+    """Read total_employees.txt and return its contents as an int.
+    The file is expected to contain a single integer (e.g.'700'), possibly
+    surrounded by whitespace.
+    """
+    try:
+        with open(filename, "r") as file:
+            return int(file.read().strip())
+    except FileNotFoundError:
+        print(f"Error: The file '{filename}' does not exist.")
+        return 0
+    except ValueError as e:
+        print(f"Error: Could not parse headcount from '{filename}': {e}")
+        return 0 
