@@ -1,20 +1,17 @@
 import csv
 
 
-# Column widths for the console dashboard. Each width is sized to fit the
-# longest value that can actually appear in that column, with NO internal
-# padding budget — the visible gap between columns is added separately as a
-# 2-space literal (GAP) so the spacing is explicit, not baked into .ljust().
+
 COL_WIDTHS = {
-    "EmployeeID": 4,       # longest: "E200"
-    "EmployeeName": 16,    # longest: "Vishal Deshmukh"
-    "DaysOnBench": 3,      # longest: "177"
-    "BenchFlag": 38,       # longest: "Critical - Immediate Deployment needed"
-    "BestProject": 31,     # longest: "Cloud Infrastructure Automation"
-    "MatchPct": 6,         # longest: "100.00"
-    "WeightedScore": 6,    # longest: "100.00"
-    "Status": 25,          # longest: "Needs Minimal Upskilling"
-    "MissingSkills": 20,   # longest: "data science; pandas"
+    "EmployeeID": 4,      
+    "EmployeeName": 16,   
+    "DaysOnBench": 3,     
+    "BenchFlag": 38,      
+    "BestProject": 31,    
+    "MatchPct": 6,        
+    "WeightedScore": 6,    
+    "Status": 25,         
+    "MissingSkills": 20,  
 }
 
 # Visible gap (in spaces) inserted between every pair of adjacent columns.
