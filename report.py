@@ -1,19 +1,16 @@
 import csv
 
-# Column widths for the console dashboard. Each width is sized to fit the
-# longest value that can actually appear in that column, with NO internal
-# padding budget — the visible gap between columns is added separately as a
-# 2-space literal (GAP) so the spacing is explicit, not baked into .ljust().
+
 COL_WIDTHS = {
-    "EmployeeID": 4,       # longest: "E200"
-    "EmployeeName": 16,    # longest: "Vishal Deshmukh"
-    "DaysOnBench": 3,      # longest: "177"
-    "BenchFlag": 38,       # longest: "Critical - Immediate Deployment needed"
-    "Project": 31,         # longest: "Cloud Infrastructure Automation"
-    "MatchPct": 6,         # longest: "100.00"
-    "WeightedScore": 6,    # longest: "100.00"
-    "Status": 25,          # longest: "Needs Minimal Upskilling"
-    "MissingSkills": 20,   # longest: "data science; pandas"
+    "EmployeeID": 4,       
+    "EmployeeName": 16,   
+    "DaysOnBench": 3,    
+    "BenchFlag": 38,       
+    "Project": 31,         
+    "MatchPct": 6,         
+    "WeightedScore": 6,    
+    "Status": 25,          
+    "MissingSkills": 20,   
 }
 
 # Visible gap (in spaces) inserted between every pair of adjacent columns.
@@ -34,21 +31,7 @@ CSV_FIELDNAMES = [
 
 
 def _rows_for_employee(employee, match_results):
-    """Return ALL MatchResult rows for an employee — one dict per employee/project pair.
-
-    CHANGE: this replaces the old `_best_match_for_employee`, which sorted an
-    employee's matches and kept only the top-scoring one. Every employee-project
-    combination is now preserved and returned as its own row.
-
-    Rows are still sorted (current_pct desc, then weighted_score desc as a
-    tiebreaker) purely so the highest matches for an employee appear first in
-    the dashboard/CSV — this is a display ordering choice only, it does not
-    discard any rows the way the old code did.
-
-    If an employee has no match_results at all (e.g. every project was skipped
-    by the matcher for having no parsable required skills), a single
-    placeholder row is returned so the employee still appears in the report.
-    """
+   
     emp_results = [r for r in match_results if r.employee is employee]
 
     days = getattr(employee, "days_on_bench", 0)
@@ -93,11 +76,6 @@ def _rows_for_employee(employee, match_results):
 
 def print_dashboard(match_results, employees):
     """Print a console dashboard showing EVERY employee/project match pair.
-
-    CHANGE: previously this printed exactly one line per employee (their best
-    match only). It now prints one line per employee-project combination, so
-    an employee with 3 open projects produces 3 lines.
-
     Uses f-strings + .ljust() for text columns and .rjust() for numeric columns,
     with an explicit 2-space gap (GAP) between every pair of adjacent columns.
     Each column width is sized to fit the longest possible value for that column.
@@ -143,10 +121,6 @@ def print_dashboard(match_results, employees):
 
 def print_bench_ageing(employees):
     """Print the bench-ageing report sorted by days_on_bench descending.
-
-    UNCHANGED — this report is per-employee by nature (bench ageing has
-    nothing to do with project matches) and was not touched.
-
     Uses sorted() + a lambda key as required by the spec.
     Column widths match print_dashboard() and add the same explicit 2-space
     gap (GAP) between every pair of adjacent columns.
@@ -188,12 +162,6 @@ def print_bench_ageing(employees):
 
 def export_bench_report(match_results, employees, filename="output/bench_report.csv"):
     """Export EVERY employee-project match row to filename using csv.DictWriter.
-
-    CHANGE: previously wrote exactly one row per employee (their best match).
-    Now writes one row per employee-project combination, so the CSV row count
-    equals the number of (bench employee) x (open project) pairs evaluated
-    (plus one placeholder row per employee with zero evaluable projects).
-
     Fieldnames mirror the dashboard columns. File writing is wrapped in
     try/except OSError so a non-writable path produces a clear message
     instead of a traceback.
