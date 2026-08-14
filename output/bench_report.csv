@@ -1,101 +1,101 @@
 EmployeeID,EmployeeName,DaysOnBench,BenchFlag,Project,MatchPct,WeightedScore,Status,MissingSkills
-E189,Meera Chauhan,3,Normal,Full Stack Web Application,83.33,93.33,Full Match,
-E189,Meera Chauhan,3,Normal,Data Science Analytics Platform,16.67,16.67,Not Suitable,python; machine learning; pandas; numpy; data science
-E189,Meera Chauhan,3,Normal,AI ML Recommendation Engine,16.67,16.67,Not Suitable,tensorflow; python; deep learning; machine learning; data science
-E189,Meera Chauhan,3,Normal,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E189,Meera Chauhan,3,Normal,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E112,Rahul Choudhari,116,Critical - Immediate Deployment needed,Full Stack Web Application,16.67,26.67,Not Suitable,node.js; javascript; css; sql; react
-E112,Rahul Choudhari,116,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E112,Rahul Choudhari,116,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,0.0,Not Suitable,pandas; numpy; sql; python; data science; machine learning
-E112,Rahul Choudhari,116,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E112,Rahul Choudhari,116,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,0.0,Not Suitable,data science; tensorflow; python; deep learning; sql; machine learning
-E144,Ishaan Kulkarni,146,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,50.0,70.0,Needs Minimal Upskilling,python; docker; aws
-E144,Ishaan Kulkarni,146,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,10.0,Not Suitable,pandas; numpy; sql; python; data science; machine learning
-E144,Ishaan Kulkarni,146,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,10.0,Not Suitable,data science; tensorflow; python; deep learning; sql; machine learning
-E144,Ishaan Kulkarni,146,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E144,Ishaan Kulkarni,146,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E167,Sneha Mehta,90,High Priority,Mobile App Development,33.33,43.33,Not Suitable,kotlin; java; flutter; android
-E167,Sneha Mehta,90,High Priority,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E167,Sneha Mehta,90,High Priority,Data Science Analytics Platform,0.0,0.0,Not Suitable,pandas; numpy; sql; python; data science; machine learning
-E167,Sneha Mehta,90,High Priority,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E167,Sneha Mehta,90,High Priority,AI ML Recommendation Engine,0.0,0.0,Not Suitable,data science; tensorflow; python; deep learning; sql; machine learning
-E168,Meera Bose,92,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,83.33,93.33,Full Match,
-E168,Meera Bose,92,Critical - Immediate Deployment needed,Data Science Analytics Platform,16.67,16.67,Not Suitable,machine learning; pandas; numpy; sql; data science
-E168,Meera Bose,92,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,tensorflow; deep learning; machine learning; sql; data science
-E168,Meera Bose,92,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E168,Meera Bose,92,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E200,Isha Bose,115,Critical - Immediate Deployment needed,Mobile App Development,33.33,63.33,Not Suitable,swift; kotlin; java; flutter
-E200,Isha Bose,115,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E200,Isha Bose,115,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,0.0,Not Suitable,pandas; numpy; sql; python; data science; machine learning
-E200,Isha Bose,115,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E200,Isha Bose,115,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,0.0,Not Suitable,data science; tensorflow; python; deep learning; sql; machine learning
-E108,Vivaan Menon,132,Critical - Immediate Deployment needed,Data Science Analytics Platform,66.67,76.67,Needs Minimal Upskilling,pandas; data science
-E108,Vivaan Menon,132,Critical - Immediate Deployment needed,AI ML Recommendation Engine,50.0,50.0,Needs Minimal Upskilling,tensorflow; deep learning; data science
-E108,Vivaan Menon,132,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; docker; kubernetes; terraform
-E108,Vivaan Menon,132,Critical - Immediate Deployment needed,Full Stack Web Application,16.67,16.67,Not Suitable,node.js; javascript; css; html; react
-E108,Vivaan Menon,132,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E187,Sanjay Gupta,142,Critical - Immediate Deployment needed,Mobile App Development,16.67,26.67,Not Suitable,android; ios; swift; kotlin; flutter
-E187,Sanjay Gupta,142,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E187,Sanjay Gupta,142,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,0.0,Not Suitable,pandas; numpy; sql; python; data science; machine learning
-E187,Sanjay Gupta,142,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E187,Sanjay Gupta,142,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,0.0,Not Suitable,data science; tensorflow; python; deep learning; sql; machine learning
-E114,Ishaan Reddy,135,Critical - Immediate Deployment needed,Full Stack Web Application,50.0,70.0,Needs Minimal Upskilling,react; javascript; html
-E114,Ishaan Reddy,135,Critical - Immediate Deployment needed,Data Science Analytics Platform,16.67,16.67,Not Suitable,python; machine learning; pandas; numpy; data science
-E114,Ishaan Reddy,135,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,tensorflow; python; deep learning; machine learning; data science
-E114,Ishaan Reddy,135,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E114,Ishaan Reddy,135,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E147,Riya Mehta,91,Critical - Immediate Deployment needed,Full Stack Web Application,16.67,36.67,Not Suitable,node.js; css; html; sql; react
-E147,Riya Mehta,91,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E147,Riya Mehta,91,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,0.0,Not Suitable,pandas; numpy; sql; python; data science; machine learning
-E147,Riya Mehta,91,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E147,Riya Mehta,91,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,0.0,Not Suitable,data science; tensorflow; python; deep learning; sql; machine learning
-E101,Deepak Sharma,141,Critical - Immediate Deployment needed,AI ML Recommendation Engine,66.67,86.67,Needs Minimal Upskilling,sql; machine learning
-E101,Deepak Sharma,141,Critical - Immediate Deployment needed,Data Science Analytics Platform,33.33,53.33,Not Suitable,sql; pandas; numpy; machine learning
-E101,Deepak Sharma,141,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; docker; kubernetes; terraform
-E101,Deepak Sharma,141,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,10.0,Not Suitable,node.js; javascript; html; sql; css; react
-E101,Deepak Sharma,141,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E128,Ananya Iyer,38,Attention,Data Science Analytics Platform,100.0,100.0,Full Match,
-E128,Ananya Iyer,38,Attention,AI ML Recommendation Engine,66.67,66.67,Needs Minimal Upskilling,tensorflow; deep learning
-E128,Ananya Iyer,38,Attention,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; docker; kubernetes; terraform
-E128,Ananya Iyer,38,Attention,Full Stack Web Application,16.67,16.67,Not Suitable,node.js; javascript; css; html; react
-E128,Ananya Iyer,38,Attention,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E183,Vishal Choudhari,66,High Priority,Mobile App Development,33.33,33.33,Not Suitable,swift; kotlin; flutter; android
-E183,Vishal Choudhari,66,High Priority,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E183,Vishal Choudhari,66,High Priority,Data Science Analytics Platform,0.0,0.0,Not Suitable,pandas; numpy; sql; python; data science; machine learning
-E183,Vishal Choudhari,66,High Priority,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E183,Vishal Choudhari,66,High Priority,AI ML Recommendation Engine,0.0,0.0,Not Suitable,data science; tensorflow; python; deep learning; sql; machine learning
-E194,Priya Chauhan,104,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,83.33,93.33,Full Match,
-E194,Priya Chauhan,104,Critical - Immediate Deployment needed,Data Science Analytics Platform,16.67,16.67,Not Suitable,machine learning; pandas; numpy; sql; data science
-E194,Priya Chauhan,104,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,tensorflow; deep learning; machine learning; sql; data science
-E194,Priya Chauhan,104,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E194,Priya Chauhan,104,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E181,Sai Nair,96,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,33.33,33.33,Not Suitable,kubernetes; terraform; docker; linux
-E181,Sai Nair,96,Critical - Immediate Deployment needed,Data Science Analytics Platform,16.67,16.67,Not Suitable,machine learning; pandas; numpy; sql; data science
-E181,Sai Nair,96,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,tensorflow; deep learning; machine learning; sql; data science
-E181,Sai Nair,96,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E181,Sai Nair,96,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E130,Priya Bhosale,146,Critical - Immediate Deployment needed,Data Science Analytics Platform,33.33,33.33,Not Suitable,pandas; python; sql; machine learning
-E130,Priya Bhosale,146,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,tensorflow; python; deep learning; machine learning; sql
-E130,Priya Bhosale,146,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E130,Priya Bhosale,146,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E130,Priya Bhosale,146,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E109,Arjun Khaire,10,Normal,AI ML Recommendation Engine,50.0,60.0,Needs Minimal Upskilling,tensorflow; deep learning; machine learning
-E109,Arjun Khaire,10,Normal,Data Science Analytics Platform,50.0,50.0,Needs Minimal Upskilling,pandas; numpy; machine learning
-E109,Arjun Khaire,10,Normal,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; docker; kubernetes; terraform
-E109,Arjun Khaire,10,Normal,Full Stack Web Application,16.67,16.67,Not Suitable,node.js; javascript; css; html; react
-E109,Arjun Khaire,10,Normal,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E178,Vishal Sharma,32,Attention,Cloud Infrastructure Automation,83.33,93.33,Full Match,
-E178,Vishal Sharma,32,Attention,Data Science Analytics Platform,16.67,16.67,Not Suitable,machine learning; pandas; numpy; sql; data science
-E178,Vishal Sharma,32,Attention,AI ML Recommendation Engine,16.67,16.67,Not Suitable,tensorflow; deep learning; machine learning; sql; data science
-E178,Vishal Sharma,32,Attention,Full Stack Web Application,0.0,0.0,Not Suitable,node.js; javascript; html; sql; css; react
-E178,Vishal Sharma,32,Attention,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E132,Karan Choudhari,54,Attention,Full Stack Web Application,16.67,26.67,Not Suitable,node.js; javascript; html; sql; react
-E132,Karan Choudhari,54,Attention,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; kubernetes; aws; python; terraform; docker
-E132,Karan Choudhari,54,Attention,Data Science Analytics Platform,0.0,0.0,Not Suitable,pandas; numpy; sql; python; data science; machine learning
-E132,Karan Choudhari,54,Attention,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
-E132,Karan Choudhari,54,Attention,AI ML Recommendation Engine,0.0,0.0,Not Suitable,data science; tensorflow; python; deep learning; sql; machine learning
-E169,Kavya Choudhari,39,Attention,Data Science Analytics Platform,50.0,70.0,Needs Minimal Upskilling,sql; pandas; numpy
-E169,Kavya Choudhari,39,Attention,AI ML Recommendation Engine,50.0,60.0,Needs Minimal Upskilling,tensorflow; deep learning; sql
-E169,Kavya Choudhari,39,Attention,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; docker; kubernetes; terraform
-E169,Kavya Choudhari,39,Attention,Full Stack Web Application,0.0,10.0,Not Suitable,node.js; javascript; html; sql; css; react
-E169,Kavya Choudhari,39,Attention,Mobile App Development,0.0,0.0,Not Suitable,swift; kotlin; java; android; ios; flutter
+E144,Ishaan Kulkarni,157,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,50.0,70.0,Needs Minimal Upskilling,python; docker; aws
+E144,Ishaan Kulkarni,157,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,10.0,Not Suitable,sql; machine learning; pandas; numpy; data science; python
+E144,Ishaan Kulkarni,157,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,10.0,Not Suitable,machine learning; sql; data science; deep learning; python; tensorflow
+E144,Ishaan Kulkarni,157,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E144,Ishaan Kulkarni,157,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E130,Priya Bhosale,157,Critical - Immediate Deployment needed,Data Science Analytics Platform,33.33,33.33,Not Suitable,sql; python; pandas; machine learning
+E130,Priya Bhosale,157,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,machine learning; sql; deep learning; python; tensorflow
+E130,Priya Bhosale,157,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E130,Priya Bhosale,157,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E130,Priya Bhosale,157,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E187,Sanjay Gupta,153,Critical - Immediate Deployment needed,Mobile App Development,16.67,26.67,Not Suitable,flutter; ios; swift; kotlin; android
+E187,Sanjay Gupta,153,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E187,Sanjay Gupta,153,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,0.0,Not Suitable,sql; machine learning; pandas; numpy; data science; python
+E187,Sanjay Gupta,153,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E187,Sanjay Gupta,153,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,0.0,Not Suitable,machine learning; sql; data science; deep learning; python; tensorflow
+E101,Deepak Sharma,152,Critical - Immediate Deployment needed,AI ML Recommendation Engine,66.67,86.67,Needs Minimal Upskilling,machine learning; sql
+E101,Deepak Sharma,152,Critical - Immediate Deployment needed,Data Science Analytics Platform,33.33,53.33,Not Suitable,sql; numpy; pandas; machine learning
+E101,Deepak Sharma,152,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; kubernetes; docker; terraform
+E101,Deepak Sharma,152,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,10.0,Not Suitable,sql; css; node.js; react; html; javascript
+E101,Deepak Sharma,152,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E114,Ishaan Reddy,146,Critical - Immediate Deployment needed,Full Stack Web Application,50.0,70.0,Needs Minimal Upskilling,html; javascript; react
+E114,Ishaan Reddy,146,Critical - Immediate Deployment needed,Data Science Analytics Platform,16.67,16.67,Not Suitable,machine learning; numpy; python; pandas; data science
+E114,Ishaan Reddy,146,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,machine learning; deep learning; python; data science; tensorflow
+E114,Ishaan Reddy,146,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E114,Ishaan Reddy,146,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E108,Vivaan Menon,143,Critical - Immediate Deployment needed,Data Science Analytics Platform,66.67,76.67,Needs Minimal Upskilling,pandas; data science
+E108,Vivaan Menon,143,Critical - Immediate Deployment needed,AI ML Recommendation Engine,50.0,50.0,Needs Minimal Upskilling,data science; deep learning; tensorflow
+E108,Vivaan Menon,143,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; kubernetes; docker; terraform
+E108,Vivaan Menon,143,Critical - Immediate Deployment needed,Full Stack Web Application,16.67,16.67,Not Suitable,css; react; node.js; html; javascript
+E108,Vivaan Menon,143,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E112,Rahul Choudhari,127,Critical - Immediate Deployment needed,Full Stack Web Application,16.67,26.67,Not Suitable,sql; css; react; node.js; javascript
+E112,Rahul Choudhari,127,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E112,Rahul Choudhari,127,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,0.0,Not Suitable,sql; machine learning; pandas; numpy; data science; python
+E112,Rahul Choudhari,127,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E112,Rahul Choudhari,127,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,0.0,Not Suitable,machine learning; sql; data science; deep learning; python; tensorflow
+E200,Isha Bose,126,Critical - Immediate Deployment needed,Mobile App Development,33.33,63.33,Not Suitable,java; kotlin; flutter; swift
+E200,Isha Bose,126,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E200,Isha Bose,126,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,0.0,Not Suitable,sql; machine learning; pandas; numpy; data science; python
+E200,Isha Bose,126,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E200,Isha Bose,126,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,0.0,Not Suitable,machine learning; sql; data science; deep learning; python; tensorflow
+E194,Priya Chauhan,115,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,83.33,93.33,Full Match,
+E194,Priya Chauhan,115,Critical - Immediate Deployment needed,Data Science Analytics Platform,16.67,16.67,Not Suitable,sql; machine learning; numpy; pandas; data science
+E194,Priya Chauhan,115,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,machine learning; sql; deep learning; data science; tensorflow
+E194,Priya Chauhan,115,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E194,Priya Chauhan,115,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E181,Sai Nair,107,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,33.33,33.33,Not Suitable,docker; linux; kubernetes; terraform
+E181,Sai Nair,107,Critical - Immediate Deployment needed,Data Science Analytics Platform,16.67,16.67,Not Suitable,sql; machine learning; numpy; pandas; data science
+E181,Sai Nair,107,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,machine learning; sql; deep learning; data science; tensorflow
+E181,Sai Nair,107,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E181,Sai Nair,107,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E168,Meera Bose,103,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,83.33,93.33,Full Match,
+E168,Meera Bose,103,Critical - Immediate Deployment needed,Data Science Analytics Platform,16.67,16.67,Not Suitable,sql; machine learning; numpy; pandas; data science
+E168,Meera Bose,103,Critical - Immediate Deployment needed,AI ML Recommendation Engine,16.67,16.67,Not Suitable,machine learning; sql; deep learning; data science; tensorflow
+E168,Meera Bose,103,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E168,Meera Bose,103,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E147,Riya Mehta,102,Critical - Immediate Deployment needed,Full Stack Web Application,16.67,36.67,Not Suitable,sql; css; react; node.js; html
+E147,Riya Mehta,102,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E147,Riya Mehta,102,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,0.0,Not Suitable,sql; machine learning; pandas; numpy; data science; python
+E147,Riya Mehta,102,Critical - Immediate Deployment needed,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E147,Riya Mehta,102,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,0.0,Not Suitable,machine learning; sql; data science; deep learning; python; tensorflow
+E167,Sneha Mehta,101,Critical - Immediate Deployment needed,Mobile App Development,33.33,43.33,Not Suitable,java; kotlin; flutter; android
+E167,Sneha Mehta,101,Critical - Immediate Deployment needed,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E167,Sneha Mehta,101,Critical - Immediate Deployment needed,Data Science Analytics Platform,0.0,0.0,Not Suitable,sql; machine learning; pandas; numpy; data science; python
+E167,Sneha Mehta,101,Critical - Immediate Deployment needed,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E167,Sneha Mehta,101,Critical - Immediate Deployment needed,AI ML Recommendation Engine,0.0,0.0,Not Suitable,machine learning; sql; data science; deep learning; python; tensorflow
+E183,Vishal Choudhari,77,High Priority,Mobile App Development,33.33,33.33,Not Suitable,kotlin; android; flutter; swift
+E183,Vishal Choudhari,77,High Priority,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E183,Vishal Choudhari,77,High Priority,Data Science Analytics Platform,0.0,0.0,Not Suitable,sql; machine learning; pandas; numpy; data science; python
+E183,Vishal Choudhari,77,High Priority,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E183,Vishal Choudhari,77,High Priority,AI ML Recommendation Engine,0.0,0.0,Not Suitable,machine learning; sql; data science; deep learning; python; tensorflow
+E132,Karan Choudhari,65,High Priority,Full Stack Web Application,16.67,26.67,Not Suitable,sql; react; node.js; html; javascript
+E132,Karan Choudhari,65,High Priority,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E132,Karan Choudhari,65,High Priority,Data Science Analytics Platform,0.0,0.0,Not Suitable,sql; machine learning; pandas; numpy; data science; python
+E132,Karan Choudhari,65,High Priority,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E132,Karan Choudhari,65,High Priority,AI ML Recommendation Engine,0.0,0.0,Not Suitable,machine learning; sql; data science; deep learning; python; tensorflow
+E169,Kavya Choudhari,50,Attention,Data Science Analytics Platform,50.0,70.0,Needs Minimal Upskilling,sql; pandas; numpy
+E169,Kavya Choudhari,50,Attention,AI ML Recommendation Engine,50.0,60.0,Needs Minimal Upskilling,sql; deep learning; tensorflow
+E169,Kavya Choudhari,50,Attention,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; kubernetes; docker; terraform
+E169,Kavya Choudhari,50,Attention,Full Stack Web Application,0.0,10.0,Not Suitable,sql; css; node.js; react; html; javascript
+E169,Kavya Choudhari,50,Attention,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E128,Ananya Iyer,49,Attention,Data Science Analytics Platform,100.0,100.0,Full Match,
+E128,Ananya Iyer,49,Attention,AI ML Recommendation Engine,66.67,66.67,Needs Minimal Upskilling,deep learning; tensorflow
+E128,Ananya Iyer,49,Attention,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; kubernetes; docker; terraform
+E128,Ananya Iyer,49,Attention,Full Stack Web Application,16.67,16.67,Not Suitable,css; react; node.js; html; javascript
+E128,Ananya Iyer,49,Attention,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E178,Vishal Sharma,43,Attention,Cloud Infrastructure Automation,83.33,93.33,Full Match,
+E178,Vishal Sharma,43,Attention,Data Science Analytics Platform,16.67,16.67,Not Suitable,sql; machine learning; numpy; pandas; data science
+E178,Vishal Sharma,43,Attention,AI ML Recommendation Engine,16.67,16.67,Not Suitable,machine learning; sql; deep learning; data science; tensorflow
+E178,Vishal Sharma,43,Attention,Full Stack Web Application,0.0,0.0,Not Suitable,sql; css; node.js; react; html; javascript
+E178,Vishal Sharma,43,Attention,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E109,Arjun Khaire,21,Normal,AI ML Recommendation Engine,50.0,60.0,Needs Minimal Upskilling,machine learning; deep learning; tensorflow
+E109,Arjun Khaire,21,Normal,Data Science Analytics Platform,50.0,50.0,Needs Minimal Upskilling,machine learning; pandas; numpy
+E109,Arjun Khaire,21,Normal,Cloud Infrastructure Automation,16.67,16.67,Not Suitable,linux; aws; kubernetes; docker; terraform
+E109,Arjun Khaire,21,Normal,Full Stack Web Application,16.67,16.67,Not Suitable,css; react; node.js; html; javascript
+E109,Arjun Khaire,21,Normal,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android
+E189,Meera Chauhan,14,Normal,Full Stack Web Application,83.33,93.33,Full Match,
+E189,Meera Chauhan,14,Normal,Data Science Analytics Platform,16.67,16.67,Not Suitable,machine learning; numpy; python; pandas; data science
+E189,Meera Chauhan,14,Normal,AI ML Recommendation Engine,16.67,16.67,Not Suitable,machine learning; deep learning; python; data science; tensorflow
+E189,Meera Chauhan,14,Normal,Cloud Infrastructure Automation,0.0,0.0,Not Suitable,linux; aws; python; docker; kubernetes; terraform
+E189,Meera Chauhan,14,Normal,Mobile App Development,0.0,0.0,Not Suitable,java; flutter; swift; kotlin; ios; android

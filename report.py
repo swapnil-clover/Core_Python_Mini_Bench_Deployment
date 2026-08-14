@@ -71,7 +71,8 @@ def _rows_for_employee(employee, match_results):
             "Status": result.status,
             "MissingSkills": missing,
         })
-    return rows
+    # return sorted(rows, key=lambda x: getattr(x.employee, "DaysOnBench", 0))
+    return sorted(rows, key=lambda x: x["DaysOnBench"])
 
 
 def print_dashboard(match_results, employees):
@@ -170,7 +171,10 @@ def export_bench_report(match_results, employees, filename="output/bench_report.
         with open(filename, "w", newline="") as file:
             writer = csv.DictWriter(file, fieldnames=CSV_FIELDNAMES)
             writer.writeheader()
-            for employee in employees:
+
+            # Sort employees by days on bench descending
+            sorted_employees = sorted(employees, key=lambda e: getattr(e, "days_on_bench", 0), reverse=True)
+            for employee in sorted_employees:
                 for row in _rows_for_employee(employee, match_results):
                     writer.writerow(row)
         print(f"\nBench report exported to '{filename}'.")
